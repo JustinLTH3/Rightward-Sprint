@@ -1,0 +1,130 @@
+{
+    "name": "InputMap",
+    "maps": [
+        {
+            "name": "Menu",
+            "id": "41f4b7dc-9cd0-40a0-bcd0-f1c401bc3f1e",
+            "actions": [
+                {
+                    "name": "Esc",
+                    "type": "Button",
+                    "id": "3db718cf-7590-44ad-87f7-d1c6e923f4b4",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "9bc2a3c0-3de1-4b00-b19d-8c36cc911182",
+                    "path": "<Keyboard>/escape",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Default",
+                    "action": "Esc",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "GamePlay",
+            "id": "b7f72cf5-e5ca-4532-88d3-6bac8d79a52a",
+            "actions": [
+                {
+                    "name": "LeftRight",
+                    "type": "Button",
+                    "id": "f6f9e04c-91c2-4596-a141-877513bbbcdc",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Jump",
+                    "type": "Button",
+                    "id": "c06fc97d-4224-4cd3-8609-218be101bf87",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Esc",
+                    "type": "Button",
+                    "id": "cb4ed32b-2f19-4591-bf92-564c3cae1305",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "1D Axis",
+                    "id": "ce1a909a-5743-45a2-b800-b3300a12286f",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LeftRight",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "f6131934-b0c5-4b30-a030-d37bd94838be",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LeftRight",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "6f224ec8-4b95-4ca0-9895-8ef38e9b6c94",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LeftRight",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "d75b0be5-82d7-4823-9bba-73a59b29c7d9",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "00c130fa-846a-4dbe-83a4-a556b5a79798",
+                    "path": "<Keyboard>/escape",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Esc",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "Default",
+            "bindingGroup": "Default",
+            "devices": []
+        }
+    ]
+}
